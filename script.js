@@ -27,9 +27,22 @@ console.log(skaicius1, skaicius2);
 
 // Į alert išvesti sukeitimo rezultatus.
 
-alert(skaicius1, skaicius2);
+alert("skaicius1 " + skaicius1 + ' skaicius2 ' + skaicius2 );
 
 // Susikurti kintamąjį maxSkaicius, jam priskirti maksimalią įmanomą skaitinę reikšmę (infinity netinka) ir išvesti į konsolę.
 
 var maxSkaicius
+maxSkaicius = skaicius1, skaicius2, skaicius3, skaicius4;
+
+console.log(Math.max(skaicius1, skaicius2, skaicius3, skaicius4));
+
+// Susikurti kintamuosius: skaicius5, skaicius6.
+var skaicius5, skaicius6;
+skaicius5 = 15;
+skaicius6 = 20;
+
+console.log(skaicius5, skaicius6);
+
+// Sukeisti kinamųju reikšmes skaicius5 ir skaicius6 pasitelkiant XOR operatorių.
+
 
